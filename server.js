@@ -8,7 +8,7 @@ app.use(express.json());
 
 // ⚠️ APNI ASLI NAYI GROQ KEY KO YAHAN "" KE ANDAR PASTE KAREIN
 const groq = new Groq({ 
-    apiKey: "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" 
+    apiKey: "gsk_p0yaDPtYkBxGyb3FYvEuz6VNleMmolnHmCSTqVqGv" 
 });
 
 app.post('/chat', async (req, res) => {
